@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Ovo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-char: "Charmonman";
+    --color-sage: #E0E6D5;
+    --font-ovo: "Ovo";
+    --font-raleway: "Raleway";
+    --color-olive: #9FAA8B;
+}
+.burger{
+  background-color: black;
+  width: 10vw;
+  height: 1vh;
+  border-radius: 50px;
+}
+
+.imageCarousel card.block{
+  display: block;
+  text-align: center;
+  font-family: 'inter';
+}
+
+.imageCarousel img.block{
+  width: 50vw;
+  height: auto;
+}
+
+.imageCarousel h3.block{
+  font-weight: normal;
+  font-family: "Raleway";
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.imageCarousel button.block{
+     border: 1px solid black;
+    font-family: "Raleway";
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .navbar{
+  display: flex;
+  height: 10vh;
+} */
+
+/* .navbarLinksList{
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .navbarLinks{
+  display: flex;
+  flex-direction: column;
+} */
+
+@media screen and (min-width: 768px){
+.imageCarousel{
+  display: none;
+}
+}
