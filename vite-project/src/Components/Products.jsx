@@ -26,7 +26,7 @@ const Products=() => {
       getNotes()
         } ,[])
     return(
-        <div className='Products md:flex w-screen gap-x-10 m-auto max-w-screen flex-wrap justify-center'>
+        <div className='Products mt-8 mb-8 md:flex w-screen gap-x-10 m-auto max-w-screen flex-wrap justify-center'>
             {/* {console.log(products)} */}
                           { products && products.map(product => <Lists
         key={product.id}
@@ -34,6 +34,7 @@ const Products=() => {
           imgpath={product.imgpath}
           price={product.price}
           description={product.description} 
+          quantity={product.quantity}
           />
           )} 
 

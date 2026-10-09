@@ -8,6 +8,12 @@
     --font-raleway: "Raleway";
     --color-olive: #9FAA8B;
 }
+
+#root{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 .burger{
   background-color: black;
   width: 10vw;
